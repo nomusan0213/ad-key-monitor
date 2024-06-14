@@ -1,0 +1,43 @@
+.strafe {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .memo {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .event-container {
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .event-item {
+    background: #ffffff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

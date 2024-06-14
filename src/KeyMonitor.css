@@ -1,0 +1,41 @@
+.key-monitor {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.instructions {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.laps {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.lap-group {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.lap-group h2 {
+    text-align: center;
+}
+
+.lap-group ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lap-group li {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.latest-lap {
+    color: red;
+}
